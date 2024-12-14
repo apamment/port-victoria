@@ -1,0 +1,14 @@
+To reset the game run either reset.bat or reset.sh depending on your
+system.
+
+To run the door, execute the following command
+
+           portvic.exe -D [DROPFILE]
+
+where [DROPFILE] is the full path and filename of the dropfile. Ensure
+that the working directory is the Port Victoria directory. Use door32.sys
+on Windows, and door.sys on Linux.
+
+For a full list of available options, type
+
+           portvic.exe -?
